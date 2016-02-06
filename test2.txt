@@ -3,3 +3,4 @@
 add dev branch
 add bo branch
 merge --no-ff
+merge with --no-ff
