@@ -2,5 +2,17 @@
 1111111
 add dev branch
 add bo branch
-merge --no-ff
-merge with --no-ff
+
+1.git stash(save current workspace)
+2.git checkout master
+3.git checkout -b issue101
+4.fix bug on branch issue101
+5.git checkout master
+6.git merge issue101
+7.git checkout dev
+8.git stash lit->git stash pop(apply stash_name,then git stash drop stash_name)
+9.git merge master(put the fixed bug code into branch dev)
+10.go on working on branch dev
+11.finish work on branch dev
+12.git checkout master
+13.git merge dev
